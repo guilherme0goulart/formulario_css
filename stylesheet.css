@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+    line-height: 1.5;
+}
+.header {
+    padding: 30px 0px 10px 0px;
+}
+#cabecalho{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Helvetica Neue", sans-serif;
+}
+body {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+}
+
+.main {
+    background-color: white;
+    width: 720px;
+    padding: 20px;
+    margin: 20px auto 30px auto;
+    box-shadow: 0px 0px 3px 0px;
+    border-radius: 25px;
+}
+
+.campos {
+    padding: 5px;
+}
+
+.botao_enviar_redefinir{
+    text-align: center;
+    padding: 5px;
+}
+
+.anuncio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.anuncio label {
+    font-size: small;
+}
+
+.anuncio #botao_anuncio {
+    display: block;
+    height: 40px;
+    width: 30px;
+}
+
+fieldset {
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-color: #c2cbce;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    width: 180px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+.masculino,
+.feminino {
+    width: 105px;
+}
+
+input[name="sexo"] {
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+}
+
+input {
+    outline: none;
+    padding: 4px;
+    height: 30px;
+    width: 290px;
+    font-size: 17px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select {
+    border: none;
+    border-bottom: 1.5px solid #8c8f91;
+    transition: 0.3s all ease-in-out
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+select:focus {
+    color: #d8a223;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-color: #d8a223;
+}
+
+textarea {
+    padding: 10px;
+    resize: none;
+    outline: none;
+    width: 100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    border: none;
+    border-radius: 10px;
+}
+
+footer h2 {
+    font-size: 18px;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: #111;
+    padding: 20px 0px 15px 0px;
+}
